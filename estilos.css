@@ -1,0 +1,134 @@
+body{
+    background:linear-gradient(86deg, #aaa ,#333, #aaa);
+    margin:0px;
+    }
+    .cuadro{
+    margin:14px 100px 12px 100px;
+    height:auto;
+    }
+    .header{
+    background:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm187-sasi-57.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=3c1bddb97f5a22e34623abc49e23cf02);
+    font-family:serif, monospace;
+    text-align: center;
+    color:#006599;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    #title{
+    margin:auto;
+    margin-bottom:8px;
+    font-size:41px;
+    position: relative;
+    top:6px;
+    }
+    .header p{
+    margin:0px 0px 10px 0px;
+    font-size:20;
+    }
+    #image{
+    margin-bottom:5px;
+    display:block;
+    max-width:100%;
+    height: auto;  
+    }
+    .subcuadro h2{
+        background: linear-gradient(90deg, #888 ,#aaa, #ccc );
+        margin:0px 0px 0px 0px;
+        padding-left:5px;
+        font-family: 'Mate SC', serif;
+        cursor: pointer;
+        user-select: none;
+        border-style: solid;
+        border-left:hidden;
+        border-right:hidden;
+        border-width:1px;
+        border-color:#002233;
+    }
+    .subcuadro h2:hover{
+        background: #3F94BF;
+    }
+    .subcuadro{             
+    background:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm187-sasi-57.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=3c1bddb97f5a22e34623abc49e23cf02);
+    font-family: 'Source Sans Pro', sans-serif, serif;
+    border-style: solid;
+    border-width:2px;
+    border-color:#002233;
+    
+    }
+    .subcuadro p{
+        margin:10px 15px 10px 15px;
+        padding:0px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:21px;
+    }
+    .footer
+    {
+    background: linear-gradient(0deg, #fff ,#888, #555 );
+    font-size:15px;
+    color:white;
+    border-style:solid;
+    border-top:hidden;
+    border-color:black;
+    border-width:2px;
+    }
+    .footer label 
+    {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size:20px;
+    cursor: pointer;
+    }
+    .footer label:hover
+    {
+    background-color:#222;    
+    }
+    .footer #referencias
+    {
+        margin:0px 0px 0px 12px;
+    }
+    .info
+    {
+    margin-top:5px;
+    font-size:20px;
+    text-align: center;
+    position: relative;
+    bottom:5px;
+    display:flex;
+    justify-content: center;
+    }
+    .info h3
+    {
+    background:url(https://www.duplication.ca/images/D/cassette-label-texture-800.jpg);
+    width: 260px; 
+    margin:0px; 
+    font-size:18px;
+    color:black;
+    border-style:solid;
+    border-color: #222;
+    border-width: 2px;
+    }
+    .info a{color:black}
+    .info a:hover{
+    background: #3F94BF;
+    border-style: solid; 
+    border-top:hidden;
+    border-width: 0px;
+    border-radius:15%;
+    }
+    /*----------------------media queries */
+    @media(max-width:750px)
+    {
+    .cuadro
+    {
+    margin: 0px;
+    }
+    }
+    /*----------------------botones */
+    #boton1:checked ~ #txt1{display:none}
+    #boton2:checked ~ #txt2{display:none}
+    #boton3:checked ~ #txt3{display:none}
+    #boton4:checked ~ #txt4{display:none}
+    #breferencias:checked ~ #referencias{display:none}
+    input{display:none}
